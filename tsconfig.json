@@ -1,0 +1,11 @@
+{
+  "extends": "my-awesome-tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "__tests__", "lib"]
+}
